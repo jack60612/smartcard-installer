@@ -110,7 +110,7 @@ function configureSSHForSmartCard() {
 function main() {
     smartCardLogin
     smartCardRules
-    removeCerts
+    #removeCerts
     installCerts
     configureSSHForSmartCard
     echo "[✔] SmartCard configuration completed successfully."

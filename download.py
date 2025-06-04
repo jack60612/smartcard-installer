@@ -4,7 +4,7 @@ import os
 from dataclasses import dataclass
 import urllib.request
 
-download_all: bool = True
+download_all: bool = False
 
 base_url: str = "https://tools.myriadnetworks.com/Applications/SmartCard/"
 
